@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="css/style.css">
     <title>The Flower Market Assignment</title>
 </head>
-<body>
-    <header class="xl:max-w-7xl xl:mx-auto mx-4">
+<body class=" overflow-x-hidden xl:max-w-7xl xl:mx-auto mx-4">
+    <header>
         <nav class="bg-white flex justify-between">
             <div class="logo">
                 <img src="assets/logo.png" alt="">
@@ -24,7 +24,7 @@
                 <a class="font-semibold" href=""><i class="fa-solid fa-cart-shopping"></i>Cart($60)</a>
             </div>
         </nav>
-        <section class="flex flex-col-reverse xl:flex-row xl:justify-between xl:mt-20">
+        <section class="flex flex-col-reverse xl:flex-row xl:justify-evenly xl:mt-20">
             <div class="xl:content-end">
                 <h3 class="noto-serif mt-7 xl:mt-0 xl:text-5xl font-bold text-2xl">ALWAYS <span class="text-orange-600">FRESH</span><br><span class="text-orange-600">FLOWERS</span></h3>
                 <p class="inter text-black/60 text-base mt-3.5 xl:max-w-sm">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
@@ -34,11 +34,11 @@
     </header>
     <main class="mt-15">
         <div class="xl:max-w-7xl xl:mx-auto gap-[2] max-w-full text-center">
-            <h3 class="noto-serif xl:text-5xl font-bold text-2xl mb-2.5">Our <span class="text-orange-600">Plants</span></h3>
+            <h3 class="noto-serif xl:text-5xl font-bold text-2xl mb-2.5"><span class="text-orange-600">Our</span> Plants</h3>
             <p class="inter xl:w-252 w-84 mx-auto text-black/60">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
         </div>
 
-        <div class="xl:max-w-7xl xl:mx-auto mx-4 grid grid-cols-2 gap-x-3.5 gap-y-4.5 mt-4 xl:grid-cols-4 xl:gap-x-0 place-items-center">
+        <div class="grid grid-cols-2 gap-x-3.5 gap-y-4.5 mt-4 xl:grid-cols-4 xl:gap-x-0 place-items-center">
 
             <div class="flex flex-col items-center text-center">
                 <img src="assets/sample-flower-image.png" alt="">
@@ -103,13 +103,69 @@
             </div>
         </div>
 
-
-        <div class="xl:max-w-7xl xl:mx-auto max-w-full text-center">
+        <section class="mt-32">
+            <div class="">
+                <div class="text-center">
+                    <h3 class="noto-serif xl:text-5xl font-bold text-2xl mb-2.5"><span class="text-orange-600">Latest</span> Deals</h3>
+                    <p class="inter xl:w-252 w-84 mx-auto text-black/60">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+                </div>
             
-        </div>
-    </main>
-    <footer>
+                <!-- <div class="grid grid-cols-1 xl:grid-cols-2 xl:grid-rows-2">
+                    
+                        <div class="latest-deal-1 bg-no-repeat aspect-[16/9]">
+                            <h4 class="noto-serif font-bold text-lg">60% Off | Bloom Plant</h4>
+                            <button class="inter font-semibold text-sm">Shop Now</button>
+                        </div>
+                        <div class="latest-deal-2 bg-no-repeat aspect-[16/9]">
+                            <h4 class="noto-serif font-bold text-lg">30% Off | Ana  Plant</h4>
+                            <button class="inter font-semibold text-sm">Shop Now</button>  
+                        </div>
+                        <div class="latest-deal-3 bg-no-repeat aspect-[16/9] bg-cover">
+                            <h4 class="noto-serif font-bold text-lg">25% Off | Zabo Plant</h4>
+                            <button class="inter font-semibold text-sm">Shop Now</button>
+                        </div>
+                    
+                </div> -->
 
+                <section class="newsletter relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen mt-10 bg-cover bg-center h-96 flex items-center justify-center">
+                    <div class="text-center">
+                        <h3 class="noto-serif font-bold text-[25px] mb-6 text-white">Join the Colorful Bunch</h3>
+                        <div class="flex gap-x-0">
+                            <input class="inter text-[16px] bg-white px-5 py-3 outline-none placeholder-gray-400" type="email" name="" id="" placeholder="Your Email">
+                            <button class="inter font-semibold text-[16px] px-5 py-3 text-white bg-amber-700">Subscribe</button>
+                        </div>
+                    </div>
+                </section>
+
+
+            </div>
+        </section>
+    </main>
+    <footer class="xl:grid xl:grid-cols-4 xl:px-36 xl:py-12.5 px py-8 gap-x-4">
+        <div class="xl:gap-8 gap-5">
+            <img src="assets/logo.png" alt="">
+            <p class="inter text-[18px] text-black/50">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+        </div>
+        <div class="grid grid-cols-1 xl:gap-8 gap-5 font-semibold text-black/70 xl:mb-0 mb-5">
+            <a href="">Home</a>
+            <a href="">About Us</a>
+            <a href="">Blog</a>
+            <a href="">FAQ</a>
+            <a href="">Contact Us</a>
+        </div>
+        <div class="grid grid-cols-1 xl:gap-8 gap-5 font-semibold text-black/70 xl:mb-0 mb-5">
+            <a href="">Features</a>
+            <a href="">Pricing</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms of Service</a>
+            <a href="">Help Center</a>
+        </div>
+        <div class="grid grid-cols-4">
+            <a href=""><img src="assets/icon-linkedin.png" alt=""></a>
+            <a href=""><img src="assets/icon-twitter.png" class="mt-3" alt=""></a>
+            <a href=""><img src="assets/icon-facebook.png" alt=""></a>
+            <a href=""><img src="assets/icon-youtube.png" alt=""></a>
+        </div>
     </footer>
 </body>
 </html>

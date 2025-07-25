@@ -12,3 +12,26 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
+/* /* .latest-card-container {
+  max-width: calc(100% - 8px);
+} */
+
+.latest-deal-1{
+  background-image: url(../assets/deal-bloom.png);
+}
+.latest-deal-2{
+  background-image: url(../assets/deal-ana.png);
+}
+.latest-deal-3{
+  background-image: url(../assets/deal-zabo.png);
+}
+
+/* .latest-deal-1,
+.latest-deal-2,
+.latest-deal-3{
+  background-repeat: no-repeat;
+} */
+
+.newsletter{
+  background-image: url(../assets/news-letter-bg.png);
+}
