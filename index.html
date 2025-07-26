@@ -24,21 +24,21 @@
                 <a class="font-semibold" href=""><i class="fa-solid fa-cart-shopping"></i>Cart($60)</a>
             </div>
         </nav>
-        <section class="flex flex-col-reverse xl:flex-row xl:justify-evenly xl:mt-20">
-            <div class="xl:content-end">
+        <section class="flex flex-col-reverse xl:flex-row xl:justify-between xl:mt-20">
+            <div class="xl:content-end xl:ml-35">
                 <h3 class="noto-serif mt-7 xl:mt-0 xl:text-5xl font-bold text-2xl">ALWAYS <span class="text-orange-600">FRESH</span><br><span class="text-orange-600">FLOWERS</span></h3>
                 <p class="inter text-black/60 text-base mt-3.5 xl:max-w-sm">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
             </div>
             <img src="assets/hero-flower.png" alt="">
         </section>
     </header>
-    <main class="mt-15">
+    <main class="mt-15 xl:mt-35">
         <div class="xl:max-w-7xl xl:mx-auto gap-[2] max-w-full text-center">
             <h3 class="noto-serif xl:text-5xl font-bold text-2xl mb-2.5"><span class="text-orange-600">Our</span> Plants</h3>
             <p class="inter xl:w-252 w-84 mx-auto text-black/60">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
         </div>
 
-        <div class="grid grid-cols-2 gap-x-3.5 gap-y-4.5 mt-4 xl:grid-cols-4 xl:gap-x-0 place-items-center">
+        <div class="grid grid-cols-2 gap-x-3.5 gap-y-4.5 mt-4 xl:mt-10 xl:grid-cols-4 xl:gap-x-0 place-items-center">
 
             <div class="flex flex-col items-center text-center">
                 <img src="assets/sample-flower-image.png" alt="">
@@ -91,7 +91,7 @@
         </div>
 
 
-        <div class="xl:max-w-7xl xl:mx-auto mx-4 mt-6 xl:flex xl:mt-38">
+        <div class="xl:max-w-7xl xl:mx-auto mx-4 mt-6 xl:flex xl:mt-50">
             <img src="assets/flower-store.png" alt="">
             <div class="xl:py-9 xl:ml-15">
                 <h3 class="noto-serif font-bold text-2xl my-4 whitespace-nowrap xl:whitespace-normal xl:text-5xl">Flower & Plants <span class="xl:block">Lover</span></h3>
@@ -109,29 +109,40 @@
                     <h3 class="noto-serif xl:text-5xl font-bold text-2xl mb-2.5"><span class="text-orange-600">Latest</span> Deals</h3>
                     <p class="inter xl:w-252 w-84 mx-auto text-black/60">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
                 </div>
-            
-                <div class="grid grid-cols-1 xl:grid-cols-2 xl:grid-rows-2 gap-5">
-                    
-                        <div class="grid place-items-center latest-deal-1 bg-black/25 bg-no-repeat bg-cover aspect-[16/9] rounded-[14px]">
-                            <div class="text-center">
+                        <!-- card container start -->
+                <div class="grid grid-cols-1 xl:grid-cols-3 gap-5">
+
+                    <div class="two-cards grid gap-5">
+                                        <!-- card 1 -->
+                        <div class="grid place-items-center latest-deal-1 relative bg-no-repeat bg-cover aspect-[16/9] rounded-[14px]">
+                            <div class="overlay"></div>
+                            <div class="text-center z-5">
                                 <h4 class="noto-serif font-bold text-[20px] text-white">60% Off | Bloom Plant</h4>
                                 <button class="inter font-semibold text-sm text-white underline decoration-solid decoration-3">Shop Now</button>
                             </div>
                         </div>
-                        <div class="grid place-items-center latest-deal-2 bg-no-repeat bg-cover aspect-[16/9]">
-                            <div class="text-center">
+
+                                    <!-- card 2 -->
+                        <div class="grid place-items-center latest-deal-2 relative bg-no-repeat bg-cover aspect-[16/9]">
+                            <div class="overlay-1"></div>
+                            <div class="text-center z-5">
                                 <h4 class="noto-serif font-bold text-[20px] text-white">30% Off | Ana  Plant</h4>
                              <button class="inter font-semibold text-sm text-white underline decoration-solid decoration-3">Shop Now</button>  
                             </div>
                         </div>
-                        <div class="grid place-items-center latest-deal-3 bg-no-repeat bg-cover aspect-[16/9] rounded-[14px]">
-                            <div class="text-center">
+                    </div>
+                    <div class="one-card grid xl:row-span-1">
+                                    <!-- card 3 -->
+                        <div class="grid place-items-center latest-deal-3 relative bg-no-repeat bg-cover aspect-[16/9] rounded-[14px]">
+                            <div class="overlay"></div>
+                            <div class="text-center z-5">
                                 <h4 class="noto-serif font-bold text-[20px] text-white">25% Off | Zabo Plant</h4>
                                 <button class="inter font-semibold text-sm text-white underline decoration-solid decoration-3">Shop Now</button>
                             </div>
                         </div>
-                    
+                    </div>
                 </div>
+                        <!-- card container end -->
 
                 <section class="newsletter relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen mt-10 bg-cover bg-center h-96 flex items-center justify-center">
                     <div class="text-center">
