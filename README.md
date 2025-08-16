@@ -39,17 +39,6 @@ to **late submission** my score was reduced.
 
 ------------------------------------------------------------------------
 
-## 📂 Repository Structure
-
-``` bash
-├── index.html        # Main HTML file
-├── styles.css        # Custom CSS (if used)
-├── tailwind.css      # Tailwind utilities (if used)
-├── README.md         # Documentation (this file)
-```
-
-------------------------------------------------------------------------
-
 ## 🌐 Live Demo
 
 🔗 **Live Link:** [The Flower Market
